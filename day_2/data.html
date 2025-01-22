@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Data</title>
+    <link rel="stylesheet" href="data.css">
+</head>
+<body>
+    <h1>Fetch Data From JavaScript API</h1>
+    
+    <table id="data-table">
+        <thead>
+            <tr>
+                <th>UserId</th>
+                <th>ID</th>
+                <th>TITLE</th>
+                <th>COMPLETED</th>
+                <th>Image</th>
+            </tr>
+        </thead>
+        <tbody id="table-body">
+            <!-- Data will be injected here -->
+        </tbody>
+    </table>
+    
+    <div id="pagination">
+
+        <button id="prev" onclick="navigate(-1)">Previous</button>
+        <button id="next" onclick="navigate(1)">Next</button>
+    </div>
+
+    <script src="data.js"></script>
+</body>
+</html>

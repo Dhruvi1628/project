@@ -1,0 +1,1 @@
+create a database by using html and css and javascript api and fetch the data from that javascript api and provide the output in tabular format in which the data is shown in the set of 5 in each page and by clicking next we got the data of other 5 and so on.
